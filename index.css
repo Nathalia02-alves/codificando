@@ -1,0 +1,132 @@
+html,body{
+    height: 100%;
+    padding:0px; 
+    margin:0px
+ }
+ body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     background-image:url(https://hermes.digitalinnovation.one/articles/cover/86718bca-ddea-4776-a86b-1257fb54cd80.gif);
+     background-repeat: repeat;
+     background-size: 100%;
+     
+ }
+
+ header{
+   
+   display:flex;
+   justify-content: center;
+    margin-bottom: 400px;
+    padding:10px;
+    width: 100%;
+    background-color:black;
+    text-align:center;  
+    position:fixed;
+    top: 0px;
+ }
+ .logo{
+     font-family:monospace;
+     font-style: oblique;
+     color:rgb(66, 113, 255);
+     display: flex;
+     justify-content: start;
+     margin-right: 70%;
+     
+ }
+
+ #select{
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bolder;
+    border-color: royalblue;
+   border-style:double;
+   background-color: royalblue;
+ }
+ 
+ #formulario{
+    font-family: monospace;
+background-color: cornflowerblue;
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 20px;
+margin-left :30%;
+margin-right:30%;
+margin-top: 5px;
+margin-bottom: 800px;
+border-radius: 10px;
+border-color: rgb(11, 71, 253);
+border-style:ridge;
+ }
+ #label{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:row;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top:1px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family:monospace;
+ }
+ #saida{
+   margin-top: 10px;
+   font-size: 40px;
+   font-family: monospace;
+    
+ }
+ footer{
+    display:flex;
+   justify-content: center;
+    margin-top: 400px;
+    padding:20px;
+    width: 100%;
+    background-color:black;
+    color:rgb(11, 71, 253);
+    text-align:center;  
+    position:fixed;
+    bottom: 0px;
+ }
+ .fim{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+ }
+
+ @media (min-width: 200px), handheld and (orientation: landscape) {
+   body{
+      height: 100%;
+      background-size: 100%;
+      background-image:url(https://hermes.digitalinnovation.one/articles/cover/86718bca-ddea-4776-a86b-1257fb54cd80.gif);
+      background-repeat:repeat
+   }
+   
+   header{
+     
+      padding-bottom: 5px;
+      text-align: start;
+      padding-right: 15% ;
+      font-size: 10px;
+   } 
+   
+   #formulario{
+       margin-top:5%;
+       align-items: center;
+       margin-bottom: 5%;
+ }
+ footer{
+   padding:20px;
+   width: 100%;
+ }
+
+    
+ 
+ }

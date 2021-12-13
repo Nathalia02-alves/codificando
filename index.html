@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem Criptografada</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Cripto Mensagem Web</h1>
+        
+    </header>
+    <div id="formulario">
+        <h2>Decifre suas mensagens utilizando os 
+        métodos de Cifra de Cesar e Base64</h2>
+
+        <div> 
+            <p>Selecione uma opção baixo!</p>
+            <select id='select'>
+                <option>Selecione</option>
+                <option value='cifra'>Cifra de César</option>
+                <option value='base64'>Base64</option>
+            </select>
+             <br>       
+            <div id='cifraDeCesar'>
+                <div id="label">Passos: 
+     
+                    <button id="btn1" onclick="voltar()">-</button>
+     
+                    <div id="passos">1</div>
+             
+                    <button id="btn" onclick="avancar()">+</button><br/><br/>
+                </div>
+                <h5>Escreva a mensagem a ser decifrada</h5>
+                <input type="text" id="entradaDeTexto" placeholder="Escreva sua mensagem aqui"/>
+                <button onclick="calcular()" id="big">Calcular</button>
+                <div id="saida"></div>
+            </div>
+        </div>
+        <div id='base-64'>
+
+            <h5>Escreva a mensagem a ser decifrada</h5>
+            <input type="text" id="entradaDeTexto" placeholder="Escreva sua mensagem aqui"/>
+            <button onclick="calcular()" id="big">Calcular</button>
+            <div id="saida"></div>
+
+
+
+        </div>
+        <input type="radio" id="radio" name="decifra" value=codificar>Codificar
+        <input type="radio" id="radio" name="decifra" value=decodificar>Decodidicar
+    </div>
+   
+    
+     <footer>
+        <p class='fim'>2021 - Todos os direitos reservados. &copy;</p>
+   </footer>
+   <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
